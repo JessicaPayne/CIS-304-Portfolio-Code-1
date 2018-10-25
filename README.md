@@ -16,3 +16,5 @@ the totalCharges to main().
 of the patient was in-patient or out-patient.
 5.  Prints out the total charges.
 6.	Does not accept any negative numbers for any data.
+
+
