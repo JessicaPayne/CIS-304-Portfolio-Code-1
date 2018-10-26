@@ -1,20 +1,9 @@
 # CIS-304-Portfolio-Code-1
 
-I have created a program that does the following:
-1. Asks the user for input and  returns 'I' or 'O' to indicate in-patient or out-patient.
-If a patient was in-patient, allow the user to input the number of days spent in the hospital,
-the daily rate, hospital medication charges, and charges for hospital services(lab tests, etc).
-If the patient is out-patient, allow the user to input charges for hospital services(lab tests, etc) and
-hospital medication charges.
-2. Creates a value - returning function named patientCharges that receives all the
-charges for in-patient data, calculates the charges and returns only the
-totalCharges to main()
-3.	Creates another value - returning function named patientCharges  that receives
-all the charges for out-patient data, calculates the charges and returns only
-the totalCharges to main().
-4.	Calls the appropriate function and sends the needed variables to it, depending on whether the status
-of the patient was in-patient or out-patient.
-5.  Prints out the total charges.
-6.	Does not accept any negative numbers for any data.
+This program is designed to calculate in-patient and out-patient hospital charges.
 
-
+The first part of the code lists the variable names and declares what type they are.
+The next part deals with in-patients. If you are in-patient, the program asks how many days you spent in the hospital for how much a day. It then asks you for any medication fees and any lab fees or other service fees.
+If you are out-patient, the program only asks for your medication fees and lab fees or other service fees.
+After receiving the required information, the program calculates a total by adding all of the fees together.
+Once calculated, the total charge is shown on the screen.
